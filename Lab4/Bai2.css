@@ -1,0 +1,29 @@
+body{
+
+}
+
+.main{
+    width: 300px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.main img{
+    width: 300px;
+    height: auto;
+}
+
+.nav {
+    width: 310px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.nav a{
+    font-variant: small-caps;
+    color: blue;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: red;
+    text-decoration: underline;
+}

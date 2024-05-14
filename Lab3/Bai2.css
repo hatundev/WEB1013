@@ -1,0 +1,18 @@
+p {
+    font-style: italic;
+}
+.main .Doan1 {
+    color: red;
+}
+
+.main   .Doan2{
+    color: blue;
+}
+
+.main .Doan3{
+    color: green;
+}
+
+strong {
+    color: darkred ;
+}
