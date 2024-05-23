@@ -69,4 +69,17 @@ body{
 }
 
 
+.top{
+    display: flex;
+}
+
+.top .img{
+    border: solid 1px whitesmoke;
+}
+
+.top .img:hover{
+    box-shadow: 0px 0px 5px 5px gray;
+}
+
+
 

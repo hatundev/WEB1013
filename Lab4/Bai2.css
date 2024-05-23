@@ -27,3 +27,7 @@ body{
     color: red;
     text-decoration: underline;
 }
+
+.nav a:visited{
+    color: green;
+}
