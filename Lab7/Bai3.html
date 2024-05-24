@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            position: relative;
+            background-color: red;
+        }
+
+        .top-right{
+            position: absolute;
+            top: 0;
+            right: 0;
+            line-height: 60px;
+            background-color: red;
+            border-bottom-left-radius: 30px;
+            box-shadow: 5px 5px 18px white;
+        }
+
+        .menu{
+            line-height: 60px;
+            position: relative;
+        }
+
+        .right{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .top-right a,
+        .menu a
+        {
+            margin-left: 15px;
+            margin-right: 15px;
+            font-variant: small-caps;
+            text-decoration: none;
+            color: white ;
+            font-size: 15px;
+        }
+        .company-info img{
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-right">
+            <a href="#">Đăng nhập</a>
+            <a href="#">Đăng ký</a>
+            <a href="#">Quên mật khẩu</a>
+        </div>
+        <div class="company-info">
+            <img src="./Banner1-1.webp" alt="">
+        </div>
+        <div class="menu">
+            <div class="left">
+                <a href="#">Trang chủ</a>
+                <a href="#">Gioi thieu</a>
+                <a href="#">Lien he</a>
+                <a href="#">Gop y</a>
+                <a href="#">Hoi dap</a>
+                <a href="#">San pham</a>
+            </div>
+
+            <div class="right">
+                <a href="#">English</a>
+                <a href="#">Vietnamese</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

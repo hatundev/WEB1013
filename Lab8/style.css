@@ -1,0 +1,146 @@
+
+
+/* ---------------------------------------------*/
+
+body{
+    padding: 0px auto;
+    margin: 0px auto;
+    
+}
+
+.contaiter{
+    max-width: 1000px;
+    margin: 0 auto;
+   
+}
+.contaiter > header{
+    background-image: url('img/img.png');
+    background-size: 100% 100%;
+    height:0px;
+    padding-bottom:25%;
+}
+.contaiter >nav{
+    line-height:40px;
+    background-color:orangered;
+    color:white;
+    text-align:center;
+    font-variant:small-caps;    
+}
+.contaiter >article{
+    min-height: 300px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.contaiter > aside{
+    min-height: 200px;
+    width: 25%;
+    background: lightgray;
+    float: right;
+}
+.contaiter > footer{
+    border-top:5px double orangered;
+    line-height:50px;
+    background-color:lightcyan;  
+    text-align:center;
+    font-variant: small-caps;
+    clear:both;
+}
+.contaiter >nav>a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+.contaiter >nav >a:hover{
+    color: yellow;  
+    text-decoration:underline;  
+}
+iframe[name=pagr]{
+    width: 100%;
+    min-height: 400px;
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius:  3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url('img/binhthuong.png') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px
+}
+.vmenu a:hover{
+    background: url('img/chon.png') no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+/*******************************************************/
+.menu > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+
+.menu > ul > li > a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.menu > ul > li > a:hover {
+    color: yellow;
+}
+
+.menu > ul > li:hover > ul {
+    display: block;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+
